@@ -1,38 +1,135 @@
-.App {
+.App{
+  width: 100%;
+}
+.logo{
+  width: 110px;;
+}
+.my_nav{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.boldTxt{
+  font-weight: 600;
+}
+.HomeTop{
+   margin-top: 20vh;
+}
+.fontH1{
+  font-size: 37px;
+  font-weight: bold;
+}
+.rightColumn{
+  background-image: url('./background.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 80% -10%;
+  height: 80vh;
+}
+.dropDownTop, #dropdown-basic{
+   background-color: #fff;
+   padding: 10px;
+   border-radius: 20px;
+   color: black;
+   margin-left: 15px;
+   border: 1px solid black;;
+}
+#dropdown-basic::after{
+  display: none !important;
+}
+.cardImg{
+  width: 100%;
+  margin: 0;
+  border-radius: 15px;
+}
+.cardCol{
+  padding: 0;
+}
+.locationTxt{
+   opacity: .6;
+}
+.imageInCard{
+   width: 40%;
+   border-radius: 15px;
+}
+#customCard{
+  border-radius: 15px;
+  background-color: white;
+}
+.card-header{
+  background-color: white !important;
+}
+.cardTxtRight, .cardIconRight{
+  float: right;
+}
+
+.cardTxtRight{
+    margin-top: 25px;
+    width: 50%;
+}
+.paraBordered span{
+   border: 1px solid black;
+   margin: 1px;
+   padding: 5px;
+   border-radius: 10px;
+   width: 68px;
+}
+
+ /* Container holding the image and the text */
+ .mycontainer {
+  position: relative;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  font-size: 13px;
+  text-align: left;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+.show_all{
+   background-color: whitesmoke;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 12px;
+   padding-right: 12px;
+   border-radius: 15px;
+   color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .rightColumn {
+    background-image: none;
   }
 }
