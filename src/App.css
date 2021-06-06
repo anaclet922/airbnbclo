@@ -142,7 +142,9 @@
   padding: 13px;
   width: 50%;
 }
-
+.imageItemI{
+  width: 100%;
+}
 @media screen and (max-width: 500px) {
   .rightColumn {
     background-image: none;

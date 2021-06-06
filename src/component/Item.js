@@ -26,7 +26,7 @@ import {
   Switch
 } from 'react-router-dom';
 
-import { faBars, faUser, faStar, faHeart, faRssSquare, faGift, faShareAlt } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faUser, faStar, faHeart, faRssSquare, faGift, faShareAlt, faTv } from '@fortawesome/free-solid-svg-icons'
 
 function Item (){
     return (
@@ -70,7 +70,7 @@ function Item (){
                 <Row>
                     <Col md={8}>
                         <Row>
-                            <Col md={8} xs={4}>
+                            <Col md={8} xs={8}>
                                 <span style={{ fontSize: "22px", fontWeight: 600 }}>
                                     Online experience hosted by Kat
                                     <br/>
@@ -84,6 +84,37 @@ function Item (){
                                 
                         <hr/>
 
+                        <Row>
+                            <Col md={12}>
+                                <FontAwesomeIcon icon={faTv} style={{ width: "20px", marginRight:"14px" }}/>
+                                <span>
+                                   <span style={{ fontWeight: 600,fontSize:"17px" }}>Join Online</span><br/>
+                                    <span style={{ marginLeft: "35px", opacity: 0.6 }}>Meet your host live on zoom</span>
+                                </span>
+                                <br/><br/>
+                                <FontAwesomeIcon icon={faTv} style={{ width: "20px", marginRight:"14px" }}/>
+                                <span>
+                                   <span style={{ fontWeight: 600,fontSize:"17px" }}>Join Online</span><br/>
+                                    <span style={{ marginLeft: "35px", opacity: 0.6 }}>Meet your host live on zoom</span>
+                                </span>
+                            </Col>
+                        </Row>
+                        <hr style={{ marginTop: "25px", marginBottom: "25px" }}/>
+
+                        <Row style={{ marginTop: "40px" }}>
+                            <Col md={12}>
+                                <h3 style={{fontWeight: 600}}>What you'll do</h3>
+                                <p style={{fontSize:"16px"}}>
+                                    Ready to win our virtual home scavenger hunt game? Join Alley Kat Adventures for a lively, unique, and interactive game that gets you outside your comfort zone to complete creative, challenging, and wacky missions for points and fun virtual prizes!
+                                    <br/><br/>
+                                    Great for corporate teams, families, solo adventurers, date nights, birthdays and other special occasions, etc.! Enjoyed by Goldman Sachs, Google, Airbnb, Facebook, Instagram, Microsoft, JP… 
+                                    <a href="#" style={{ textDecoration: "underline",color:"black", fontWeight:600 }}>Read more</a>
+                                </p>
+                            </Col>
+                        </Row>
+                        <br/>
+                        <hr/>
+                        <h3 style={{fontWeight: 600}}>How to participate</h3>
                                 
                     </Col>
                     <Col md={4}>
