@@ -87,8 +87,15 @@ function Item (){
                                 
                     </Col>
                     <Col md={4}>
-
+                        <div className={"shadow-lg"} style={{ borderRadius:"15px", width: "100%", padding: "25px", border: "1px solid #D7D7D7" }}>
+                            <p>
+                                <span>From $12</span> / person<br/>
+                                <a href="#" style={{textDecoration: "underline", color: "black", opacity: 0.6}}>Show  all prices</a>
+                            </p>
+                        </div>
                     </Col>
+
+
                 </Row>
             </Container>
         </Router>
