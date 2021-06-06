@@ -89,14 +89,26 @@ function Item (){
                     <Col md={4}>
                         <div className={"shadow-lg"} style={{ borderRadius:"15px", width: "100%", padding: "25px", border: "1px solid #D7D7D7" }}>
                             <p>
-                                <span>From $12</span> / person<br/>
+                                <span style={{ fontSize: "17px", fontWeight:"bold" }}>From $12</span> / person<br/>
                                 <a href="#" style={{textDecoration: "underline", color: "black", opacity: 0.6}}>Show  all prices</a>
                             </p>
+
+                            <div style={{ border: "1px solid #D7D7D7",borderRadius: "15px" }}>
+                                <table className={"tableT"}>
+                                    <tr>
+                                        <td><span>DATES</span><br/><span>Add dates</span></td>
+                                        <td style={{ borderLeft: "1px solid #D7D7D7" }}><span>Guests</span><br/><span>1 guest</span></td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </Col>
 
 
                 </Row>
+
+
+                <br/><br/>
             </Container>
         </Router>
     );

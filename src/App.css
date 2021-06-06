@@ -133,6 +133,16 @@
   margin-left: 10px;
 }
 
+.tableT{
+  width: 100%;
+  padding: 3px;
+}
+.tableT tr td{
+  text-align: center;
+  padding: 13px;
+  width: 50%;
+}
+
 @media screen and (max-width: 500px) {
   .rightColumn {
     background-image: none;
