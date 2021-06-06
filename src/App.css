@@ -129,6 +129,10 @@
    color: black;
 }
 
+.float-right span{
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 500px) {
   .rightColumn {
     background-image: none;
