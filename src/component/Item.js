@@ -101,6 +101,51 @@ function Item (){
                                     </tr>
                                 </table>
                             </div>
+
+                            <Row style={{ marginTop: "30px" }}>
+                                <Col md={8} xs={6}>
+                                    <p style={{fontSize: "13px"}}>
+                                        <b>Mon, Jun 7</b> <br/>
+                                        <span>12:00 AM - 1:00 AM(CAT)</span>
+                                    </p>
+                                </Col>
+                                <Col md={4} xs={6} style={{fontSize: "13px"}}>
+                                    <b>$12</b> / person<br/>
+                                    <Button variant="secondary" style={{fontSize: "13px", borderRadius: "13px"}}>Sold out</Button>
+                                </Col>
+                            </Row>
+                            <hr/>
+                            <Row style={{ marginTop: "30px" }}>
+                                <Col md={8} xs={6}>
+                                    <p style={{fontSize: "13px"}}>
+                                        <b>Mon, Jun 7</b> <br/>
+                                        <span>12:00 AM - 1:00 AM(CAT)</span>
+                                    </p>
+                                </Col>
+                                <Col md={4} xs={6} style={{fontSize: "13px"}}>
+                                    <b>$12</b> / person<br/>
+                                    <Button variant="danger" style={{fontSize: "13px", borderRadius: "13px", backgroundColor:"#FE375D"}}>Choose</Button>
+                                </Col>
+                            </Row>
+                            <hr/>
+                            <Row style={{ marginTop: "30px" }}>
+                                <Col md={8} xs={6}>
+                                    <p style={{fontSize: "13px"}}>
+                                        <b>Mon, Jun 7</b> <br/>
+                                        <span>12:00 AM - 1:00 AM(CAT)</span>
+                                    </p>
+                                </Col>
+                                <Col md={4} xs={6} style={{fontSize: "13px"}}>
+                                    <b>$12</b> / person<br/>
+                                    <Button variant="danger" style={{fontSize: "13px", borderRadius: "13px", backgroundColor:"#FE375D"}}>Choose</Button>
+                                </Col>
+                            </Row>
+                            <hr/>
+                            <Row>
+                                <Col md={12}>
+                                    <Button style={{ backgroundColor: "#fff",color: "black", fontWeight: 600,padding: "5px", border: "1px solid #000", borderRadius:"13px" }} className={"btn btn-block"}>See more dates</Button>
+                                </Col>
+                            </Row>
                         </div>
                     </Col>
 
