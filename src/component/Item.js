@@ -3,6 +3,7 @@ import airbnb_logo from '../airbnb.png';
 import partyImg from '../party.jpg';
 import painting from '../paint.jpg';
 import image1 from '../background1.webp';
+import profileImg from '../profile.webp';
 
 import '../App.css';
 
@@ -17,7 +18,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Nav from './Nav';
-
+import imageItemI from '../imageItemI.jpg';
 import {
   BrowserRouter as Router,
   Route,
@@ -57,6 +58,36 @@ function Item (){
                                 <FontAwesomeIcon icon={faHeart} /> Save
                             </span>
                         </span>
+                    </Col>
+                </Row>
+                <Row style={{ marginTop:"25px" }}>
+                    <Col md={12}>
+                        <Image src={imageItemI} className={"imageItemI"}/>
+                    </Col>
+                </Row>
+                <br/>
+
+                <Row>
+                    <Col md={8}>
+                        <Row>
+                            <Col md={8} xs={4}>
+                                <span style={{ fontSize: "22px", fontWeight: 600 }}>
+                                    Online experience hosted by Kat
+                                    <br/>
+                                    <span style={{ fontSize: "13px" }}>60 mins · Hosted in English and Spanish</span>
+                                </span>
+                            </Col>
+                            <Col md={4} xs={4}>                                
+                                <Image src={profileImg} className={"float-right"} style={{ width: "60px", height: "60px", borderRadius: "50%" }}/>
+                            </Col>
+                        </Row>
+                                
+                        <hr/>
+
+                                
+                    </Col>
+                    <Col md={4}>
+
                     </Col>
                 </Row>
             </Container>
